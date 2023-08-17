@@ -1,0 +1,108 @@
+/* Основные цвета */
+:root {
+  --bg-color: #e6f1f8;
+  --nav-bg-color: #020001;
+  --header-bg-color: #97a2a8;
+  --input-bg-color: #FCFAE3;
+  --primary-color: #333333;
+  --secondary-color: #E0C972;
+  --danger-color: #E05C5C;
+  --success-color: #46E071;
+  --info-color: #515DE0;
+}
+
+/* Тело страницы */
+body {
+  background-color: var(--bg-color);
+}
+
+/* Навигационное меню */
+.navbar {
+  background-color: var(--nav-bg-color);
+}
+
+/* Заголовки */
+h1, h2, h3, h4, h5, h6 {
+  background-color: var(--header-bg-color);
+}
+
+/* Поля ввода */
+input, textarea {
+  background-color: var(--input-bg-color);
+}
+
+/* Кнопки */
+.btn-primary {
+  background-color: var(--primary-color);
+  border-color: var(--primary-color);
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+}
+
+.btn-danger {
+  background-color: var(--danger-color);
+  border-color: var(--danger-color);
+}
+
+.btn-success {
+  background-color: var(--success-color);
+  border-color: var(--success-color);
+}
+
+.btn-info {
+  background-color: var(--info-color);
+  border-color: var(--info-color);
+}
+
+/* Другие цвета */
+/* Остальные цвета темы, сгенерированные на основе правил дизайна */
+/* Для генерации использовался цветовой круг и правила треугольника */
+/* Необходимо заменить на соответствующие цвета вашего дизайна */
+
+.text-primary {
+  color: #2c2c2c;
+}
+
+.text-secondary {
+  color: #fbf0c7;
+}
+
+.text-danger {
+  color: #a30e0e;
+}
+
+.text-success {
+  color: #0b774e;
+}
+
+.text-info {
+  color: #101ce0;
+}
+
+.bg-primary {
+  background-color: #dbdbdb;
+}
+
+.bg-secondary {
+  background-color: #f7e3a2;
+}
+
+.bg-danger {
+  background-color: #f4a3a3;
+}
+
+.bg-success {
+  background-color: #8bd5b5;
+}
+
+.bg-info {
+  background-color: #8c9fe8;
+}
+
+/* Остальные стили */
+/* Добавьте дополнительные стили вашего дизайна */
+/* Необходимо заменить на соответствующие стили вашего дизайна */
+

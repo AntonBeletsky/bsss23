@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>multilevel-dropdowns (BS 5)</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center vh-100">
+        <div class="card" id="example">
+            <div class="card-body text-center border rounded border-white shadow p-5">
+                <h3 class="text-center"><strong>Multilevel vs Normal</strong><br><em>Dropdown Menu</em></h3>
+                <div class="dropdown multilevel mt-5 mb-4"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Multilevel Dropdown</button>
+                    <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a>
+                        <div class="dropend"><a class="btn dropdown-toggle dropdown-item" aria-expanded="false" data-bs-toggle="dropdown" role="button">Dropdown </a>
+                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a>
+                                <div class="dropend"><a class="btn dropdown-toggle dropdown-item" aria-expanded="false" data-bs-toggle="dropdown" role="button">Dropdown </a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a>
+                                        <div class="dropend"><a class="btn dropdown-toggle dropdown-item" aria-expanded="false" data-bs-toggle="dropdown" role="button">Dropdown </a>
+                                            <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div><a class="dropdown-item" href="#">Third Item</a>
+                    </div>
+                </div>
+                <div class="dropdown"><button class="btn btn-primary btn-lg dropdown-toggle" aria-expanded="false" data-bs-toggle="dropdown" type="button">Normal Dropdown </button>
+                    <div class="dropdown-menu"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/multilevel-dropdown.js"></script>
+</body>
+
+</html>

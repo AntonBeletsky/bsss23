@@ -1,0 +1,17 @@
+body {
+  background: linear-gradient(135deg, #2727cb, #3ac996);
+}
+
+#example {
+  width: 100%;
+  max-width: 500px;
+}
+
+#example h3 {
+  line-height: 1.5;
+}
+
+#example h3 em {
+  color: #888;
+}
+
